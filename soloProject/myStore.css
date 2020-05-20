@@ -1,0 +1,170 @@
+body{
+	background-color: #b0a892;
+	font-family: 'Pangolin', cursive;
+	text-align: center;
+	/*background-image: url(pics/bg.jpg);*/
+}
+
+h1{
+	margin-top: 45px;
+}
+
+button{
+	background-color: #39204a;
+	color:white;
+	border-color:#39204a;
+	margin-bottom: 50px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+hr{
+	width:60%;
+}
+p{
+	font-size: 25px;
+
+}
+
+img{
+	border: 2px solid #5a565e;
+	border-radius: 10px;
+	box-shadow: 3px 3px black;
+}
+
+#thirdimg,#fourthimg{
+	width:267px;
+}
+
+.seperate{
+    margin: 27px auto;
+    width: 46%;
+    color: purple;
+}
+
+input{
+	margin-right:5px;
+	margin-left: 20px;
+	 transform: scale(2);
+    padding: 10px;
+}
+
+label,h5{
+	font-size: 20px;
+	color:#421321;
+}
+
+#btn{
+  text-align: center;
+  padding:30px 60px;
+	border-radius: 20px;
+	font-size:2em;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top:40px;
+	box-shadow: 7px 10px #888888;
+}
+
+.books{
+	display: none;
+    margin: 0 100px;
+    padding: 50px 0;
+	text-align: center;
+	background: #5a565e;
+	border: 3px solid #421321;
+    border-radius: 127px;
+    height: 2000px;
+
+}
+
+h5{
+	display: none;
+}
+ul{
+	display: none;
+	border:2px solid #5a565e;
+	border-radius: 10px;
+	width: 400px;
+	margin-left: 528px;
+}
+
+small{
+	display: none;
+}
+
+#add{
+ 	display: none;
+    float: right;
+    padding: 20px;
+    border-radius: 41px;
+    font-size: 16px;
+    margin-top: 26px;
+    margin-right: 136px;
+    background-color: #421321;
+    border-color: #421321;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+#show{
+  display: none;
+  padding:22px;
+  background-color: #421321;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 0px;
+  font-size: 18px;
+  margin-left: 210px
+
+
+}
+#hide{
+   display: none;
+   padding:20px;
+   background-color: #421321;
+   font-family: 'Titillium Web', sans-serif;
+   margin-top: 0px;
+   margin-left: 211px;
+   font-size: 20px;
+}
+
+#remove{
+    display: none;
+    margin-left: 631px;
+    padding: 4px 67px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 17px;
+}
+
+#cost{
+	display: none;
+}
+
+#buy{
+	display: none;
+    margin-left: 668px;
+    padding: 4px 67px;
+    border-radius: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    background: #960518;
+}
+
+#finally{
+	width: 100%;
+	margin-bottom: 10px
+}
+
+#add:hover,#show:hover,#hide:hover{
+	background-color: #7a1132;
+}
+
+#btn:hover, #remove:hover{
+	background-color:#523a70;
+}
+
+#buy:hover{
+	background-color: #b8061d;
+}
+
+/* for the rating */
+.checked {
+  color: orange;
+}
